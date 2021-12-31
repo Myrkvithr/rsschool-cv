@@ -63,8 +63,8 @@ I graduated from Ivanovo State University of Chemical Technology.
 ### Courses:
 
 - HTML/CSS. Interactive course on GeekBrains.ru.
-- HTML for beginners on https://ru.code-basics.com/languages/html.
-- CSS for beginners on https://ru.code-basics.com/languages/css.
+- HTML for beginners on [https://ru.code-basics.com/languages/html](https://ru.code-basics.com/languages/html).
+- CSS for beginners on [https://ru.code-basics.com/languages/css](https://ru.code-basics.com/languages/css).
 - Git Quick start on GeekBrains.ru.
 - The Modern JavaScript Tutorial. Ilya Kantor on learnjavascript.ru (in progress).
 - The Complete JavaScript Course. Jonas Schmedtmann (in progress).
