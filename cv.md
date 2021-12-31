@@ -4,7 +4,7 @@
 
 - **Phone:** +7 921 027-11-14
 - **E-mail:** <place_of_meeting@inbox.ru>
-- **GitHub:** [_https://github.com/Myrkvithr_](https://github.com/Myrkvithr)
+- **GitHub:** [_github.com/Myrkvithr_](https://github.com/Myrkvithr)
 - **Telegram:** _@Myrkvithr_
 
 ## About me
@@ -45,12 +45,12 @@ function century(year) {
 
 ## Learning Progects
 
-- **Aim Training** (HTML, CSS, JS) [https://myrkvithr.github.io/miniGame/](https://myrkvithr.github.io/miniGame/)
-- **Guess My Number** (HTML, CSS, JS) [https://myrkvithr.github.io/Guess-My-Number/](https://myrkvithr.github.io/Guess-My-Number/)
-- **Board** (HTML, CSS, JS) [https://myrkvithr.github.io/Board/](https://myrkvithr.github.io/Board/)
-- **Pig-Game** (HTML, CSS, JS) [https://myrkvithr.github.io/Pig-Game/](https://myrkvithr.github.io/Pig-Game/)
-- **Landing bemWithBootstrap** (HTML, CSS, JS, BEM, Bootstrap) [https://myrkvithr.github.io/bemWithBootstrap/](https://myrkvithr.github.io/bemWithBootstrap/)
-- **Landing Daisy_FlexBox_Sass** (HTML, JS, FlexBox, Sass) [https://myrkvithr.github.io/Daisy_FlexBox_Sass/](https://myrkvithr.github.io/Daisy_FlexBox_Sass/)
+- **Aim Training** (HTML, CSS, JS) [myrkvithr.github.io/miniGame](https://myrkvithr.github.io/miniGame/)
+- **Guess My Number** (HTML, CSS, JS) [myrkvithr.github.io/Guess-My-Number](https://myrkvithr.github.io/Guess-My-Number/)
+- **Board** (HTML, CSS, JS) [myrkvithr.github.io/Board](https://myrkvithr.github.io/Board/)
+- **Pig-Game** (HTML, CSS, JS) [myrkvithr.github.io/Pig-Game](https://myrkvithr.github.io/Pig-Game/)
+- **Landing bemWithBootstrap** (HTML, CSS, JS, BEM, Bootstrap) [myrkvithr.github.io/bemWithBootstrap](https://myrkvithr.github.io/bemWithBootstrap/)
+- **Landing Daisy_FlexBox_Sass** (HTML, JS, FlexBox, Sass) [myrkvithr.github.io/Daisy_FlexBox_Sass](https://myrkvithr.github.io/Daisy_FlexBox_Sass/)
 
 ## Education
 
@@ -63,12 +63,12 @@ I graduated from Ivanovo State University of Chemical Technology.
 ### Courses:
 
 - HTML/CSS. Interactive course on GeekBrains.ru.
-- HTML for beginners on [https://ru.code-basics.com/languages/html](https://ru.code-basics.com/languages/html).
-- CSS for beginners on [https://ru.code-basics.com/languages/css](https://ru.code-basics.com/languages/css).
-- Git Quick start on GeekBrains.ru.
-- The Modern JavaScript Tutorial. Ilya Kantor on learnjavascript.ru (in progress).
+- HTML for beginners on [ru.code-basics.com/languages/html](https://ru.code-basics.com/languages/html/).
+- CSS for beginners on [ru.code-basics.com/languages/css](https://ru.code-basics.com/languages/css/).
+- Git Quick start on [gb.ru](https://gb.ru/).
+- The Modern JavaScript Tutorial. Ilya Kantor on [learn.javascript.ru](https://learn.javascript.ru/) (in progress).
 - The Complete JavaScript Course. Jonas Schmedtmann (in progress).
-- Preparatory course JavaScript/Front-end. Stage 0 from The Rolling Scopes School (in progress).
+- Preparatory course JavaScript/Front-end. Stage 0 from [The Rolling Scopes School](https://rs.school/) (in progress).
 
 ## Languages
 
