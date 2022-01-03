@@ -9,6 +9,8 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/forest.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <title>Maxim Goriachev CV</title>
 
 </head>
@@ -16,7 +18,7 @@
 <body>
     <div id="toTop"><i class="fas fa-chevron-up"></i></div>
 
-    <header>
+    <header class="header container">
         <nav class="header__nav">
             <ul class="header__nav-menu">
                 <li class="header__nav-menu-item"><a href="#Contact-Info" class="header__nav-link
@@ -38,7 +40,7 @@
     </header>
 
 
-    <main>
+    <main class="main container">
 
         <aside>
 
@@ -77,18 +79,44 @@
 
         <div class="content">
             <h1 class="content__h1">Goriachev Maxim</h1>
-            <section class="content__about-me" id="About-me">About me</section>
-            <section class="content__skills" id="Skills">Skills</section>
-            <section class="content__code-examples" id="Code-Examples">Code Examples</section>
-            <section class="content__learning-progects" id="Learning-Progects">Learning Progects</section>
-            <section class="content__education" id="Education">Education</section>
-            <section class="content__languages" id="Languages">Languages</section>
+
+            <section class="content__about-me" id="About-me">
+                <h2 class="content__h2">About me</h2>
+            </section>
+
+            <section class="content__skills" id="Skills">
+                <h2 class="content__h2">Skills</h2>
+            </section>
+
+            <section class="content__code-examples" id="Code-Examples">
+                <h2 class="content__h2">Code Examples</h2>
+            </section>
+
+            <section class="content__learning-progects" id="Learning-Progects">
+                <h2 class="content__h2">Learning Progects</h2>
+            </section>
+
+            <section class="content__education" id="Education">
+                <h2 class="content__h2">Education</h2>
+            </section>
+
+            <section class="content__languages" id="Languages">
+                <h2 class="content__h2">Languages</h2>
+            </section>
+
         </div>
     </main>
 
-    <footer>
-
+    <footer class="footer container">
+    <a class="contact-info__link contact-info__icon" href="https://github.com/Myrkvithr">
+        <i class="fab fa-github"></i>
+    </a>
+    <p class="footer__created-date">&copy; Created by Maxim Goriachev, 2022</p>
+    <a href="https://rs.school/js-stage0/" class="footter__rs-link">
+        <img src="" alt="rs-link">
+    </a>
     </footer>
+
 
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
