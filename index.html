@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/forest.ico">
     <title>Maxim Goriachev CV</title>
 
 </head>
@@ -15,18 +16,74 @@
 <body>
     <div id="toTop"><i class="fas fa-chevron-up"></i></div>
 
-    <header>header</header>
+    <header>
+        <nav class="header__nav">
+            <ul class="header__nav-menu">
+                <li class="header__nav-menu-item"><a href="#Contact-Info" class="header__nav-link
+                    ">Contact Info</a></li>
+                <li class="header__nav-menu-item"><a href="#About-me" class="header__nav-link
+                    ">About Me</a></li>
+                <li class="header__nav-menu-item"><a href="#Skills" class="header__nav-link
+                    ">Skills</a></li>
+                <li class="header__nav-menu-item"><a href="#Code-Examples" class="header__nav-link
+                    ">Code Examples</a></li>
+                <li class="header__nav-menu-item"><a href="#Learning-Progects" class="header__nav-link
+                    ">Learning Progects</a></li>
+                <li class="header__nav-menu-item"><a href="#Education" class="header__nav-link
+                    ">Education</a></li>
+                <li class="header__nav-menu-item"><a href="#Languages" class="header__nav-link
+                    ">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
 
 
     <main>
 
+        <aside>
 
-        <a href="#">
-            <span class="fa-stack fa-2x">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
-            </span>
-        </a>
+            <img class="aside__main-img" src="avatar.png" alt="My Avatar">
+            <section class="contact-info" id="Contact-Info">
+                <h2 class="contact-info__title">Contact Info</h2>
+                <ul class="contact-info__items">
+                    <li class="contact-info__item">
+                        <a class="contact-info__link" href="tel:79210271114">
+                            <i class="fas fa-phone-volume contact-info__icon"></i>
+                            +7 921 027-11-14
+                        </a>
+                    </li>
+                    <li class="contact-info__item">
+                        <a class="contact-info__link" href="mailto:place_of_meeting@inbox.ru">
+                            <i class="fas fa-envelope contact-info__icon"></i>
+                            place_of_meeting@inbox.ru
+                        </a>
+                    </li>
+                    <li class="contact-info__item">
+                        <a class="contact-info__link contact-info__icon" href="https://github.com/Myrkvithr">
+                            <i class="fab fa-github"></i>
+                            github.com/Myrkvithr
+                        </a>
+                    </li>
+                    <li class="contact-info__item">
+                        <a class="contact-info__link contact-info__icon" href="https://t.me/Myrkvithr">
+                            <i class="fab fa-telegram"></i>
+                            @Myrkvithr
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+
+
+        <div class="content">
+            <h1 class="content__h1">Goriachev Maxim</h1>
+            <section class="content__about-me" id="About-me">About me</section>
+            <section class="content__skills" id="Skills">Skills</section>
+            <section class="content__code-examples" id="Code-Examples">Code Examples</section>
+            <section class="content__learning-progects" id="Learning-Progects">Learning Progects</section>
+            <section class="content__education" id="Education">Education</section>
+            <section class="content__languages" id="Languages">Languages</section>
+        </div>
     </main>
 
     <footer>
