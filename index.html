@@ -42,11 +42,11 @@
 
     <main class="main container">
 
-        <aside>
+        <aside class="aside">
 
             <img class="aside__main-img" src="avatar.png" alt="My Avatar">
             <section class="contact-info" id="Contact-Info">
-                <h2 class="contact-info__title">Contact Info</h2>
+                <h2 class="contact-info__title text-h2">Contact Info</h2>
                 <ul class="contact-info__items">
                     <li class="contact-info__item">
                         <a class="contact-info__link" href="tel:79210271114">
@@ -61,14 +61,14 @@
                         </a>
                     </li>
                     <li class="contact-info__item">
-                        <a class="contact-info__link contact-info__icon" href="https://github.com/Myrkvithr">
-                            <i class="fab fa-github"></i>
+                        <a class="contact-info__link" href="https://github.com/Myrkvithr">
+                            <i class="fab fa-github contact-info__icon"></i>
                             github.com/Myrkvithr
                         </a>
                     </li>
                     <li class="contact-info__item">
-                        <a class="contact-info__link contact-info__icon" href="https://t.me/Myrkvithr">
-                            <i class="fab fa-telegram"></i>
+                        <a class="contact-info__link" href="https://t.me/Myrkvithr">
+                            <i class="fab fa-telegram contact-info__icon"></i>
                             @Myrkvithr
                         </a>
                     </li>
@@ -78,43 +78,119 @@
 
 
         <div class="content">
-            <h1 class="content__h1">Goriachev Maxim</h1>
+            <h1 class="content__h1">Maxim Goriachev</h1>
 
-            <section class="content__about-me" id="About-me">
-                <h2 class="content__h2">About me</h2>
+            <section class="content__about-me section-margin" id="About-me">
+                <h2 class="content__h2 text-h2">About me</h2>
+                <p class="text">My name is Maxim Goriachev. I am inspired by working with code. I want to become a
+                    professional front-end developer. I have some experience in the layout of landing pages for mobile
+                    phones and PCs.</p>
             </section>
 
-            <section class="content__skills" id="Skills">
-                <h2 class="content__h2">Skills</h2>
+            <section class="content__skills section-margin" id="Skills">
+                <h2 class="content__h2 text-h2">Skills</h2>
+                <ul class="content__skills-items">
+                    <li class="content__skills-item list-item">HTML5</li>
+                    <li class="content__skills-item list-item">CSS3</li>
+                    <li class="content__skills-item list-item">JavaScript</li>
+                    <li class="content__skills-item list-item">Sass</li>
+                    <li class="content__skills-item list-item">jQuery</li>
+                    <li class="content__skills-item list-item">Bootstrap</li>
+                    <li class="content__skills-item list-item">BEM</li>
+                    <li class="content__skills-item list-item">Git</li>
+                    <li class="content__skills-item list-item">VS Code, Brackets</li>
+                    <li class="content__skills-item list-item">Avocode, Figma, Photoshop</li>
+                    <li class="content__skills-item list-item">Chrome Dev Tools, Git Bash</li>
+                </ul>
             </section>
 
-            <section class="content__code-examples" id="Code-Examples">
-                <h2 class="content__h2">Code Examples</h2>
+            <section class="content__code-examples section-margin" id="Code-Examples">
+                <h2 class="content__h2 text-h2">Code Examples</h2>
+                <code class="content__code">
+                    function century(year) {
+                    let cen;
+                    year % 100 == 0 ? (cen = year / 100) : (cen = Math.floor(year / 100) + 1);
+                    return cen;
+                    }
+                </code>
             </section>
 
-            <section class="content__learning-progects" id="Learning-Progects">
-                <h2 class="content__h2">Learning Progects</h2>
+            <section class="content__learning-progects section-margin" id="Learning-Progects">
+                <h2 class="content__h2 text-h2">Learning Progects</h2>
+                <ul class="content__learning-progects-items">
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/miniGame/" class="content__learning-progects-link">Aim
+                            Training (HTML, CSS, JS)</a></li>
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/Guess-My-Number/"
+                            class="content__learning-progects-link">Guess My Number (HTML, CSS, JS)</a></li>
+                    <li class="content__learning-progects-item list-item"><a href="https://myrkvithr.github.io/Board/"
+                            class="content__learning-progects-link">Board (HTML, CSS, JS)</a></li>
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/Pig-Game/"
+                            class="content__learning-progects-link">Pig-Game (HTML, CSS, JS)</a></li>
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/bemWithBootstrap/"
+                            class="content__learning-progects-link">Landing bemWithBootstrap (HTML, CSS, JS, BEM,
+                            Bootstrap)</a></li>
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/Daisy_FlexBox_Sass/"
+                            class="content__learning-progects-link">Landing Daisy_FlexBox_Sass (HTML, JS, FlexBox,
+                            Sass)</a></li>
+                </ul>
+
+
+
             </section>
 
-            <section class="content__education" id="Education">
-                <h2 class="content__h2">Education</h2>
+            <section class="content__education section-margin" id="Education">
+                <h2 class="content__h2 text-h2">Education</h2>
+                <p class="content__education-descr">I graduated from Ivanovo State University of Chemical Technology.
+                </p>
+                <ul class="content__education-items">
+                    <li class="content__education-item list-item">Bachelor (Chemical technology and biotechnology.).
+                    </li>
+                    <li class="content__education-item list-item">Master (Organic chemistry. Chemistry of porphyrins and
+                        related
+                        compounds.).</li>
+                </ul>
+
+                <h3 class="content__languages-h3">Courses:</h3>
+                <ul class="content__languages-items">
+                    <li class="content__languages-item list-item">GeekBrains. HTML/CSS. Interactive course.</li>
+                    <li class="content__languages-item list-item">GeekBrains. Git Quick start.</li>
+                    <li class="content__languages-item list-item">Code-basics. HTML for beginners.</li>
+                    <li class="content__languages-item list-item">Code-basics. CSS for beginners.</li>
+                    <li class="content__languages-item list-item">The Modern JavaScript Tutorial. Ilya Kantor on
+                        learn.javascript.ru (in progress)</li>
+                    <li class="content__languages-item list-item">The Complete JavaScript Course. Jonas Schmedtmann (in
+                        progress).
+                    </li>
+                    <li class="content__languages-item list-item">Preparatory course JavaScript/Front-end. Stage 0 from
+                        The
+                        Rolling Scopes School (in progress).</li>
+                </ul>
             </section>
 
-            <section class="content__languages" id="Languages">
-                <h2 class="content__h2">Languages</h2>
+            <section class="content__languages section-margin" id="Languages">
+                <h2 class="content__h2 text-h2">Languages</h2>
+                <ul class="content__languages-items">
+                    <li class="content__languages-item list-item">Russian - native.</li>
+                    <li class="content__languages-item list-item">English - B1.</li>
+                </ul>
             </section>
 
         </div>
     </main>
 
     <footer class="footer container">
-    <a class="contact-info__link contact-info__icon" href="https://github.com/Myrkvithr">
-        <i class="fab fa-github"></i>
-    </a>
-    <p class="footer__created-date">&copy; Created by Maxim Goriachev, 2022</p>
-    <a href="https://rs.school/js-stage0/" class="footter__rs-link">
-        <img src="" alt="rs-link">
-    </a>
+        <a class="contact-info__link" href="https://github.com/Myrkvithr">
+            <i class="fab fa-github contact-info__icon"></i>
+        </a>
+        <p class="footer__created-date">&copy; Created by Maxim Goriachev, 2022</p>
+        <a class="footter__rs-link" href="https://rs.school/js-stage0/">
+            <img class="footter__rs-link-img" src="assets/rs_school_js.svg" alt="rs-link">
+        </a>
     </footer>
 
 
