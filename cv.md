@@ -76,7 +76,8 @@ I graduated from Ivanovo State University of Chemical Technology.
 - Git Quick start on [gb.ru](https://gb.ru/).
 - The Modern JavaScript Tutorial. Ilya Kantor on [learn.javascript.ru](https://learn.javascript.ru/) (in progress).
 - The Complete JavaScript Course. Jonas Schmedtmann (in progress).
-- Preparatory course JavaScript/Front-end. Stage 0 from [The Rolling Scopes School](https://rs.school/) (in progress).
+- Course JavaScript/Front-end. Stage 0 from [The Rolling Scopes School](https://rs.school/).
+- Preparatory course JavaScript/Front-end. Stage 1 from [The Rolling Scopes School](https://rs.school/) (in progress).
 
 ## Languages
 
