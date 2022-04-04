@@ -29,17 +29,21 @@ I have some experience in the layout of landing pages for mobile phones and PCs.
 
 ## Code Examples
 
-### Century From Year
+### Data Reverse
 
 #### Task
 
-Given a year, return the century it is in.
+A stream of data is received and needs to be reversed.
 
 ```js
-function century(year) {
-  let cen;
-  year % 100 == 0 ? (cen = year / 100) : (cen = Math.floor(year / 100) + 1);
-  return cen;
+function dataReverse(data) {
+    const arr = [];
+    for (let i = 1; i <= (data.length / 8); i++) {
+        for (let j = (data.length - 8 * i); j < (data.length - 8 * i + 8); j++) {
+           arr.push(data[j]);
+        }
+     }
+          return arr;
 }
 ```
 
