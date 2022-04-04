@@ -3,8 +3,12 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: #8a8585;
+  background: #A5A692;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
