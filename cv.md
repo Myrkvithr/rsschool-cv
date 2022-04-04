@@ -79,6 +79,7 @@ I graduated from Ivanovo State University of Chemical Technology.
 - Preparatory course JavaScript/Front-end. Stage 0 from [The Rolling Scopes School](https://rs.school/).
 - Course JavaScript/Front-end. Stage 1 from [The Rolling Scopes School](https://rs.school/) (in progress).
 
+
 ## Languages
 
 - Russian - native.
