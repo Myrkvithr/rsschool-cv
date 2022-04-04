@@ -30,7 +30,7 @@
                 <li class="header__nav-menu-item"><a href="#Code-Examples" class="header__nav-link
                     ">Code Examples</a></li>
                 <li class="header__nav-menu-item"><a href="#Learning-Progects" class="header__nav-link
-                    ">Learning Progects</a></li>
+                    ">Learning Projects</a></li>
                 <li class="header__nav-menu-item"><a href="#Education" class="header__nav-link
                     ">Education</a></li>
                 <li class="header__nav-menu-item"><a href="#Languages" class="header__nav-link
@@ -107,16 +107,22 @@
             <section class="content__code-examples section-margin" id="Code-Examples">
                 <h2 class="content__h2 text-h2">Code Examples</h2>
                 <code class="content__code">
-                    function century(year) {
-                    let cen;
-                    year % 100 == 0 ? (cen = year / 100) : (cen = Math.floor(year / 100) + 1);
-                    return cen;
-                    }
+                    <pre>
+  function dataReverse(data) {
+      const arr = [];
+      for (let i = 1; i <= data.length / 8; i++) {
+        for (let j = data.length - 8 * i; j < data.length - 8 * i + 8; j++) {
+          arr.push(data[j]);
+      }
+      }
+      return arr;
+  }
+                </pre>
                 </code>
             </section>
 
             <section class="content__learning-progects section-margin" id="Learning-Progects">
-                <h2 class="content__h2 text-h2">Learning Progects</h2>
+                <h2 class="content__h2 text-h2">Learning Projects</h2>
                 <ul class="content__learning-progects-items">
                     <li class="content__learning-progects-item list-item"><a
                             href="https://myrkvithr.github.io/miniGame/" class="content__learning-progects-link">Aim
@@ -137,6 +143,23 @@
                             href="https://myrkvithr.github.io/Daisy_FlexBox_Sass/"
                             class="content__learning-progects-link">Landing Daisy_FlexBox_Sass (HTML, JS, FlexBox,
                             Sass)</a></li>
+
+
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/portfolio/"
+                            class="content__learning-progects-link">Landing Portfolio (HTML, CSS, JS, SCSS)</a></li>
+
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/js30-1.1-eco-sounds/"
+                            class="content__learning-progects-link">Eco-sounds (HTML, CSS, JS, SCSS)</a></li>
+
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/js30-2.2-image-galery/"
+                            class="content__learning-progects-link">Image Gallery (HTML, CSS, JS, SCSS)</a></li>
+
+                    <li class="content__learning-progects-item list-item"><a
+                            href="https://myrkvithr.github.io/js30-3.1-tic-tac-toe/"
+                            class="content__learning-progects-link">Tic-Tac-Toe (HTML, CSS, JS, SCSS)</a></li>
                 </ul>
 
 
@@ -168,7 +191,12 @@
                     </li>
                     <li class="content__languages-item list-item">Preparatory course JavaScript/Front-end. Stage 0 from
                         The
+                        Rolling Scopes School.</li>
+                    <li class="content__languages-item list-item">Course JavaScript/Front-end. Stage 1 from
+                        The
                         Rolling Scopes School (in progress).</li>
+
+
                 </ul>
             </section>
 
