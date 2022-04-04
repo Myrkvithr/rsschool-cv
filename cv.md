@@ -29,21 +29,25 @@ I have some experience in the layout of landing pages for mobile phones and PCs.
 
 ## Code Examples
 
-### Century From Year
+### Data Reverse
 
 #### Task
 
-Given a year, return the century it is in.
+A stream of data is received and needs to be reversed.
 
 ```js
-function century(year) {
-  let cen;
-  year % 100 == 0 ? (cen = year / 100) : (cen = Math.floor(year / 100) + 1);
-  return cen;
+function dataReverse(data) {
+  const arr = [];
+  for (let i = 1; i <= data.length / 8; i++) {
+    for (let j = data.length - 8 * i; j < data.length - 8 * i + 8; j++) {
+      arr.push(data[j]);
+    }
+  }
+  return arr;
 }
 ```
 
-## Learning Progects
+## Learning Projects
 
 - **Aim Training** (HTML, CSS, JS) [myrkvithr.github.io/miniGame](https://myrkvithr.github.io/miniGame/)
 - **Guess My Number** (HTML, CSS, JS) [myrkvithr.github.io/Guess-My-Number](https://myrkvithr.github.io/Guess-My-Number/)
@@ -51,6 +55,10 @@ function century(year) {
 - **Pig-Game** (HTML, CSS, JS) [myrkvithr.github.io/Pig-Game](https://myrkvithr.github.io/Pig-Game/)
 - **Landing bemWithBootstrap** (HTML, CSS, JS, BEM, Bootstrap) [myrkvithr.github.io/bemWithBootstrap](https://myrkvithr.github.io/bemWithBootstrap/)
 - **Landing Daisy_FlexBox_Sass** (HTML, JS, FlexBox, Sass) [myrkvithr.github.io/Daisy_FlexBox_Sass](https://myrkvithr.github.io/Daisy_FlexBox_Sass/)
+- **Landing Portfolio** (HTML, CSS, JS, SCSS) [myrkvithr.github.io/portfolio](https://myrkvithr.github.io/portfolio/)
+- **Eco-sounds** (HTML, CSS, JS, SCSS) [myrkvithr.github.io/js30-1.1-eco-sounds](https://myrkvithr.github.io/js30-1.1-eco-sounds/)
+- **Image Gallery** (HTML, CSS, JS, SCSS) [myrkvithr.github.io/js30-2.2-image-galery](https://myrkvithr.github.io/js30-2.2-image-galery/)
+- **Tic-Tac-Toe** (HTML, CSS, JS, SCSS) [myrkvithr.github.io/js30-3.1-tic-tac-toe](https://myrkvithr.github.io/js30-3.1-tic-tac-toe/)
 
 ## Education
 
@@ -68,7 +76,8 @@ I graduated from Ivanovo State University of Chemical Technology.
 - Git Quick start on [gb.ru](https://gb.ru/).
 - The Modern JavaScript Tutorial. Ilya Kantor on [learn.javascript.ru](https://learn.javascript.ru/) (in progress).
 - The Complete JavaScript Course. Jonas Schmedtmann (in progress).
-- Preparatory course JavaScript/Front-end. Stage 0 from [The Rolling Scopes School](https://rs.school/) (in progress).
+- Course JavaScript/Front-end. Stage 0 from [The Rolling Scopes School](https://rs.school/).
+- Preparatory course JavaScript/Front-end. Stage 1 from [The Rolling Scopes School](https://rs.school/) (in progress).
 
 ## Languages
 
