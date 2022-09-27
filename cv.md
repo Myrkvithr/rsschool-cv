@@ -57,3 +57,27 @@ function dataReverse(data) {
 - **Eco-sounds** (HTML, CSS, JS, SCSS) [myrkvithr.github.io/js30-1.1-eco-sounds](https://myrkvithr.github.io/js30-1.1-eco-sounds/)
 - **Image Gallery** (HTML, CSS, JS, SCSS) [myrkvithr.github.io/js30-2.2-image-galery](https://myrkvithr.github.io/js30-2.2-image-galery/)
 - **Tic-Tac-Toe** (HTML, CSS, JS, SCSS) [myrkvithr.github.io/js30-3.1-tic-tac-toe](https://myrkvithr.github.io/js30-3.1-tic-tac-toe/)
+
+## Education
+
+I graduated from Ivanovo State University of Chemical Technology.
+
+- Bachelor (Chemical technology and biotechnology.).
+- Master (Organic chemistry. Chemistry of porphyrins and
+  related compounds.).
+
+### Courses:
+
+- HTML/CSS. Interactive course on GeekBrains.ru.
+- HTML for beginners on [ru.code-basics.com/languages/html](https://ru.code-basics.com/languages/html/).
+- CSS for beginners on [ru.code-basics.com/languages/css](https://ru.code-basics.com/languages/css/).
+- Git Quick start on [gb.ru](https://gb.ru/).
+- The Modern JavaScript Tutorial. Ilya Kantor on [learn.javascript.ru](https://learn.javascript.ru/) (in progress).
+- The Complete JavaScript Course. Jonas Schmedtmann (in progress).
+- Preparatory course JavaScript/Front-end. Stage 0 from [The Rolling Scopes School](https://rs.school/).
+- Course JavaScript/Front-end from [The Rolling Scopes School](https://rs.school/) (in progress).
+
+## Languages
+
+- Russian - native.
+- English - B1.
